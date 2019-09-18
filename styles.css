@@ -1,0 +1,8 @@
+body{
+    height: 100%
+}
+.topnav {
+    display: flex;
+    height: 15%;
+    background-color: maroon;
+}
