@@ -43,11 +43,12 @@ body {
 .logo {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .logo img{
     display: flex;
     justify-content: center;
-
+    width: 50%;
 }
 .main-image {
     display: flex;
