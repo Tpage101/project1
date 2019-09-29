@@ -1,8 +1,50 @@
-body{
-    height: 100%
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 .topnav {
     display: flex;
+    flex-direction: row;
     height: 15%;
+
     background-color: maroon;
+    border-bottom: 1px solid black;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    width: 100%;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item:hover {
+    cursor: pointer;
+    background-color: red;
+}
+.nav-item a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin: 25px 10px;
+    height: 100%;
+    width: 100%;
+}
+.logo img{
+    width: 100%;
+}
+.banner {
+    background-color: maroon;
+}
+.banner h2 {
+    text-align: center;
+    color: white;
 }
