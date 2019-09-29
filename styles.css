@@ -4,14 +4,16 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+
 }
 .topnav {
     display: flex;
     flex-direction: row;
     height: 15%;
 
-    background-color: maroon;
+    background-color: #902D2C;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 .nav-list {
     display: flex;
@@ -27,7 +29,7 @@ body {
 }
 .nav-item:hover {
     cursor: pointer;
-    background-color: red;
+    background-color: #440000;
 }
 .nav-item a{
     display: flex;
@@ -38,13 +40,32 @@ body {
     height: 100%;
     width: 100%;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+}
 .logo img{
+    display: flex;
+    justify-content: center;
+
+}
+.main-image {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }
-.banner {
-    background-color: maroon;
+.main-image img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
-.banner h2 {
+.slogan {
+    background-color: #902D2C;
+    display: flex;
+    justify-content: center;
+}
+.slogan h2 {
     text-align: center;
     color: white;
 }
