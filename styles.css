@@ -43,7 +43,7 @@ body {
 .logo {
     display: flex;
     justify-content: center;
-    
+
 }
 .logo img{
     display: flex;
@@ -65,8 +65,23 @@ body {
     background-color: #902D2C;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 .slogan h2 {
     text-align: center;
     color: white;
+}
+.about {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+}
+.about p {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    font-size: 24px;
+    margin: 10px auto;
 }
